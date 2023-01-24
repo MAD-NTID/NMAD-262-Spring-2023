@@ -1,0 +1,17 @@
+C:\Users\kscics\Desktop\Weather\WeatherApp\bin\Debug\net7.0\WeatherApp.exe
+C:\Users\kscics\Desktop\Weather\WeatherApp\bin\Debug\net7.0\WeatherApp.deps.json
+C:\Users\kscics\Desktop\Weather\WeatherApp\bin\Debug\net7.0\WeatherApp.runtimeconfig.json
+C:\Users\kscics\Desktop\Weather\WeatherApp\bin\Debug\net7.0\WeatherApp.dll
+C:\Users\kscics\Desktop\Weather\WeatherApp\bin\Debug\net7.0\WeatherApp.pdb
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.csproj.AssemblyReference.cache
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.AssemblyInfo.cs
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.dll
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\refint\WeatherApp.dll
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.pdb
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.genruntimeconfig.cache
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\ref\WeatherApp.dll
+C:\Users\kscics\Desktop\Weather\WeatherApp\bin\Debug\net7.0\HtmlAgilityPack.dll
+C:\Users\kscics\Desktop\Weather\WeatherApp\obj\Debug\net7.0\WeatherApp.csproj.CopyComplete

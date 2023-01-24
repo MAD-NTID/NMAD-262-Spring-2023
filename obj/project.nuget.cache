@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G/dGJcpBVRFr2NCaj7HCMsFAcnOaF6F/v92dLasO4WhsOooDxLa5Ry0GCdvGyL3Ojkg8TDUNHsTcvHy5SM7fPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\WeatherApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kscics\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}
