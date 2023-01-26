@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G/dGJcpBVRFr2NCaj7HCMsFAcnOaF6F/v92dLasO4WhsOooDxLa5Ry0GCdvGyL3Ojkg8TDUNHsTcvHy5SM7fPQ==",
+  "dgSpecHash": "YpjYXnXoqOZowYFVLsLzuoxUIKMI53Ej2Sh0i9QEVGc2BXC++KC5om8UtWSQlmUZdI3mskwxR7diMR+iP0drRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\WeatherApp.csproj",
+  "projectFilePath": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\WeatherApp\\WeatherApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kscics\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512"
   ],

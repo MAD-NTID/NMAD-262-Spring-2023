@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\WeatherApp.csproj": {}
+    "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\WeatherApp\\WeatherApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\WeatherApp.csproj": {
+    "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\WeatherApp.csproj",
+        "projectPath": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\WeatherApp\\WeatherApp.csproj",
         "packagesPath": "C:\\Users\\kscics\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kscics\\Desktop\\Weather\\WeatherApp\\obj\\",
+        "outputPath": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
