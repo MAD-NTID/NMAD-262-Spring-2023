@@ -1,0 +1,17 @@
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\bin\Debug\net7.0\IPGEOJSON.exe
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\bin\Debug\net7.0\IPGEOJSON.deps.json
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\bin\Debug\net7.0\IPGEOJSON.runtimeconfig.json
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\bin\Debug\net7.0\IPGEOJSON.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\bin\Debug\net7.0\IPGEOJSON.pdb
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.csproj.AssemblyReference.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.AssemblyInfoInputs.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.AssemblyInfo.cs
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.csproj.CoreCompileInputs.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\refint\IPGEOJSON.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.pdb
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.genruntimeconfig.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\ref\IPGEOJSON.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\IPGEOJSON\obj\Debug\net7.0\IPGEOJSON.csproj.CopyComplete
