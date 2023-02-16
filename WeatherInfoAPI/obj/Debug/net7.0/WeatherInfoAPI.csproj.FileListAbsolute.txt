@@ -1,0 +1,17 @@
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\bin\Debug\net7.0\WeatherInfoAPI.exe
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\bin\Debug\net7.0\WeatherInfoAPI.deps.json
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\bin\Debug\net7.0\WeatherInfoAPI.runtimeconfig.json
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\bin\Debug\net7.0\WeatherInfoAPI.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\bin\Debug\net7.0\WeatherInfoAPI.pdb
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.csproj.AssemblyReference.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.AssemblyInfoInputs.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.AssemblyInfo.cs
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.csproj.CoreCompileInputs.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\refint\WeatherInfoAPI.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.pdb
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.genruntimeconfig.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\ref\WeatherInfoAPI.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\WeatherInfoAPI\obj\Debug\net7.0\WeatherInfoAPI.csproj.CopyComplete

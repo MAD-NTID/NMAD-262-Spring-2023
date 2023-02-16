@@ -1,0 +1,17 @@
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\bin\Debug\net7.0\DadJokes.exe
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\bin\Debug\net7.0\DadJokes.deps.json
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\bin\Debug\net7.0\DadJokes.runtimeconfig.json
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\bin\Debug\net7.0\DadJokes.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\bin\Debug\net7.0\DadJokes.pdb
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.csproj.AssemblyReference.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.AssemblyInfoInputs.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.AssemblyInfo.cs
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.csproj.CoreCompileInputs.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.csproj.CopyComplete
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\refint\DadJokes.dll
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.pdb
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\DadJokes.genruntimeconfig.cache
+C:\Users\kscics\Desktop\NMAD-262-Spring-2023\DadJokes\obj\Debug\net7.0\ref\DadJokes.dll
