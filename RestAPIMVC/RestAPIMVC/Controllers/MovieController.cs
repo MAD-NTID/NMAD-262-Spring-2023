@@ -12,24 +12,24 @@ public class MovieController: ControllerBase
 {
     // private DbSet<Movie> movies;
     // private MySqlDatabase context;
-    private MovieRepository _repository;
+    private IMovieRepository _repository;
 
-    public MovieController(MySqlDatabase context)
+    public MovieController(IMovieRepository repository)
     {
-        this._repository = new MovieRepository(context);
+        this._repository = repository;
     }
     
 
     [HttpGet]
     public async Task<ActionResult> GetMovies()
     {
-        return Ok(await this._repository.GetMovies());
+        return Ok(await this._repository.All());
     }
 
     [HttpPost]
     public async Task<ActionResult> AddMovie(Movie movie)
     {
-        return Ok(await this._repository.AddMovie(movie));
+        return Ok(await this._repository.Create(movie));
 
     }
 

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RestAPIMVC.Databases;
+using RestAPIMVC.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ string connection = builder.Configuration.GetConnectionString("mysqldbcredential
 builder.Services.AddDbContextPool<MySqlDatabase>(options =>
     options.UseMySql(connection,ServerVersion.AutoDetect(connection))
 );
+
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 
 var app = builder.Build();
 

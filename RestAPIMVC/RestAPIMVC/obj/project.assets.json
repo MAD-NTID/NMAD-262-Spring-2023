@@ -1118,31 +1118,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kscics\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/cypher/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kscics\\RiderProjects\\RestAPIMVC\\RestAPIMVC\\RestAPIMVC.csproj",
+      "projectUniqueName": "/home/cypher/Desktop/NMAD-162/NMAD-262-Spring-2023/RestAPIMVC/RestAPIMVC/RestAPIMVC.csproj",
       "projectName": "RestAPIMVC",
-      "projectPath": "C:\\Users\\kscics\\RiderProjects\\RestAPIMVC\\RestAPIMVC\\RestAPIMVC.csproj",
-      "packagesPath": "C:\\Users\\kscics\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kscics\\RiderProjects\\RestAPIMVC\\RestAPIMVC\\obj\\",
+      "projectPath": "/home/cypher/Desktop/NMAD-162/NMAD-262-Spring-2023/RestAPIMVC/RestAPIMVC/RestAPIMVC.csproj",
+      "packagesPath": "/home/cypher/.nuget/packages/",
+      "outputPath": "/home/cypher/Desktop/NMAD-162/NMAD-262-Spring-2023/RestAPIMVC/RestAPIMVC/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kscics\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/cypher/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1193,7 +1186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
