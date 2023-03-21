@@ -14,10 +14,35 @@ public class MovieRepository: IMovieRepository
         this.context = context;
         this.movies = context.Movies;
     }
-    
+
+    public async Task<IEnumerable<MovieDetail>> AllMovieDetail()
+    {
+        var query = (from m in context.Movies
+                join c in context.Casts on m.Id equals c.MovieId
+                join a in context.Actors on c.ActorId equals a.Id
+
+                select new MovieDetail()
+                {
+                    Title = m.Title,
+                    Rank = m.Rank,
+                    Rating = m.Rating,
+                    ActorName = a.Name
+                }
+            );
+
+        return query;
+    }
+
     public async Task<IEnumerable<Movie>> All()
     {
         return await this.movies.ToArrayAsync();
+    }
+    
+
+
+    public  DbSet<Movie> QuerableMovies()
+    {
+        return  this.movies;
     }
 
     public async Task<Movie> Create(Movie movie)

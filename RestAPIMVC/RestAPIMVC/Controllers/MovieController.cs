@@ -8,7 +8,7 @@ namespace RestAPIMVC.Controllers;
 
 [ApiController]
 [Route("api/movies")]
-public class MovieController: ControllerBase
+public class MovieController : ControllerBase
 {
     // private DbSet<Movie> movies;
     // private MySqlDatabase context;
@@ -18,7 +18,7 @@ public class MovieController: ControllerBase
     {
         this._repository = repository;
     }
-    
+
 
     [HttpGet]
     public async Task<ActionResult> GetMovies()
@@ -33,7 +33,13 @@ public class MovieController: ControllerBase
 
     }
 
-    // [HttpGet("{id}")]
+    [HttpGet("Details")]
+    public async Task<ActionResult> Details()
+    {
+        return Ok(await this._repository.AllMovieDetail());
+    }
+
+// [HttpGet("{id}")]
     // public Movie GetMovieById(int id)
     // {
     //     foreach (Movie movie in movies)
