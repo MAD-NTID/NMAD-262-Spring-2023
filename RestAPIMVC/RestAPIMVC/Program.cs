@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using RestAPIMVC.Databases;
 using RestAPIMVC.Repositories;
+using RestAPIMVC.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,7 +19,17 @@ builder.Services.AddDbContextPool<MySqlDatabase>(options =>
     options.UseMySql(connection,ServerVersion.AutoDetect(connection))
 );
 
+builder.Services
+    .AddAuthentication("APIAuthentication")
+    .AddScheme<AuthenticationSchemeOptions, APIAuthenticationAttribute>("APIAuthentication",null);
+
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<ICastRepository, CastRepository>();
+builder.Services.AddScoped<IActorRepository, ActorRepository>();
+builder.Services.AddScoped<IMovieService, MovieService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+
 
 var app = builder.Build();
 
@@ -30,6 +42,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

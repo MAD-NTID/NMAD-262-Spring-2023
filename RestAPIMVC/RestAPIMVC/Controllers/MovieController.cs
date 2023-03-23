@@ -1,42 +1,46 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RestAPIMVC.Databases;
 using RestAPIMVC.Models;
 using RestAPIMVC.Repositories;
+using RestAPIMVC.Services;
 
 namespace RestAPIMVC.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("api/movies")]
 public class MovieController : ControllerBase
 {
     // private DbSet<Movie> movies;
     // private MySqlDatabase context;
-    private IMovieRepository _repository;
+    private IMovieService _service;
 
-    public MovieController(IMovieRepository repository)
+    public MovieController(IMovieService service)
     {
-        this._repository = repository;
+        this._service = service;
     }
 
 
     [HttpGet]
+    [AllowAnonymous]
     public async Task<ActionResult> GetMovies()
     {
-        return Ok(await this._repository.All());
+        return Ok(await this._service.All());
     }
 
     [HttpPost]
     public async Task<ActionResult> AddMovie(Movie movie)
     {
-        return Ok(await this._repository.Create(movie));
+        return Ok(await this._service.Create(movie));
 
     }
 
     [HttpGet("Details")]
     public async Task<ActionResult> Details()
     {
-        return Ok(await this._repository.AllMovieDetail());
+        return Ok(await this._service.AllMovieDetail());
     }
 
 // [HttpGet("{id}")]

@@ -13,4 +13,6 @@ public class MySqlDatabase: DbContext
     public DbSet<Movie> Movies { get; set; }
     public DbSet<Cast> Casts { get; set; }
     public DbSet<Actor> Actors { get; set; }
+    
+    public DbSet<User> Users { get; set; }
 }
