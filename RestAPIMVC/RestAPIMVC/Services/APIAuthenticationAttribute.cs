@@ -5,6 +5,7 @@ using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
+using RestAPIMVC.Exceptions;
 using RestAPIMVC.Repositories;
 
 namespace RestAPIMVC.Services;
@@ -30,8 +31,8 @@ public class APIAuthenticationAttribute: AuthenticationHandler<AuthenticationSch
         
         //checking for the authorization in the header
         if (!Request.Headers.ContainsKey("Authorization"))
-            return AuthenticateResult.Fail("Authorization Header required!");
-        
+            throw new UserExceptionErrorException(401, "Authorization Header required!");
+
         //Authorization: Scheme <credential>
         AuthenticationHeaderValue authorizationHeader = AuthenticationHeaderValue.Parse(Request.Headers["Authorization"]);
         
@@ -47,7 +48,8 @@ public class APIAuthenticationAttribute: AuthenticationHandler<AuthenticationSch
         
         //is the username and password valid?
         if(!this._userRepository.Authenticate(username, password))
-            return AuthenticateResult.Fail("Incorrect username or password");
+            throw new UserExceptionErrorException(401, "Invalid username or password");
+
         
         //Setup claims
         Claim[] claims = new[]

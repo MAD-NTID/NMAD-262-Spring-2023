@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RestAPIMVC.Databases;
@@ -41,6 +42,12 @@ public class MovieController : ControllerBase
     public async Task<ActionResult> Details()
     {
         return Ok(await this._service.AllMovieDetail());
+    }
+    
+    [HttpGet("{id}")]
+    public async Task<ActionResult> GetMovie(int id)
+    {
+        return Ok(await this._service.Get(id));
     }
 
 // [HttpGet("{id}")]

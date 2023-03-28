@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using RestAPIMVC.Databases;
+using RestAPIMVC.Exceptions;
 using RestAPIMVC.Repositories;
 using RestAPIMVC.Services;
 
@@ -31,6 +32,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -40,6 +42,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
