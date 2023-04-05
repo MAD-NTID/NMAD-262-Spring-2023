@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NMAD262ExamSolution.props" />
+</Project>
