@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+lJKHYbl48vK53u8Bu3Ap5bR5V7st4Hif64CMCvbgj9JjGwBCsPDAjmqmg2t35DPjUza9ZhPyyjEcj80K7YDmA==",
+  "dgSpecHash": "aXI7BYHyJEsz4elVMZuY0DqO7aKG8t2hLZs6R7ihYbXzxAaZFEnukBO64GrnJUzmp8qtdz/k5qd4V1pVagxCeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kscics\\RiderProjects\\NMAD262ExamSolution\\NMAD262ExamSolution\\NMAD262ExamSolution.csproj",
+  "projectFilePath": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\NMAD262ExamSolution\\NMAD262ExamSolution\\NMAD262ExamSolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kscics\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\kscics\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
