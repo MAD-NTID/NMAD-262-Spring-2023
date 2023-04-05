@@ -1,6 +1,7 @@
 ﻿using RestAPIMVC.Models;
 using RestAPIMVC.Repositories;
 using Microsoft.EntityFrameworkCore;
+using NLog.Targets;
 
 namespace RestAPIMVC.Services;
 
@@ -31,6 +32,10 @@ public class MovieService : IMovieService
 
     public async Task<Movie> Get(int id)
     {
+        int a = 1;
+        int b = 0;
+        
+        Console.WriteLine(a/b);
         //some logics
         return await this._movieRepository.Get(id);
     }
