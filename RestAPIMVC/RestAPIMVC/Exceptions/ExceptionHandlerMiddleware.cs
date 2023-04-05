@@ -1,15 +1,18 @@
 ﻿using System.Reflection.Metadata;
 using System.Text.Json;
+using RestAPIMVC.Services;
 
 namespace RestAPIMVC.Exceptions;
 
 public class ExceptionHandlerMiddleware
 {
     public readonly RequestDelegate next;
+    private ILoggerManager logger;
 
-    public ExceptionHandlerMiddleware(RequestDelegate next)
+    public ExceptionHandlerMiddleware(ILoggerManager logger, RequestDelegate next)
     {
         this.next = next;
+        this.logger = logger;
     }
 
     public async Task InvokeAsync(HttpContext context)
@@ -46,6 +49,13 @@ public class ExceptionHandlerMiddleware
             Message = message,
             StatusCode = status
         };
+
+        //anything within the 500 range is a critical error and we want to know about it
+        if (status >= 500)
+        {
+            string error = exception.Message + "-" + exception.StackTrace.ToString();
+            this.logger.Error(error);
+        }
         
         
         

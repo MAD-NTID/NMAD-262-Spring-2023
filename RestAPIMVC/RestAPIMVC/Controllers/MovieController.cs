@@ -44,6 +44,7 @@ public class MovieController : ControllerBase
         return Ok(await this._service.AllMovieDetail());
     }
     
+    [AllowAnonymous]
     [HttpGet("{id}")]
     public async Task<ActionResult> GetMovie(int id)
     {

@@ -1,0 +1,20 @@
+Error
+2023-03-30 12:11:06.9789 Error
+Timestamp:2023-03-30 12:18:22.1994 Error Level:Error ErrorDetail:Attempted to divide by zero. 
+Timestamp:2023-03-30 12:31:49.3536 Error Level:Error ErrorDetail:Attempted to divide by zero.-   at RestAPIMVC.Services.MovieService.Get(Int32 id) in /home/cypher/Desktop/NMAD-162/NMAD-262-Spring-2023/RestAPIMVC/RestAPIMVC/Services/MovieService.cs:line 38
+   at RestAPIMVC.Controllers.MovieController.GetMovie(Int32 id) in /home/cypher/Desktop/NMAD-162/NMAD-262-Spring-2023/RestAPIMVC/RestAPIMVC/Controllers/MovieController.cs:line 51
+   at lambda_method10(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RestAPIMVC.Exceptions.ExceptionHandlerMiddleware.InvokeAsync(HttpContext context) in /home/cypher/Desktop/NMAD-162/NMAD-262-Spring-2023/RestAPIMVC/RestAPIMVC/Exceptions/ExceptionHandlerMiddleware.cs:line 22 

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
+using NLog;
 using RestAPIMVC.Databases;
 using RestAPIMVC.Exceptions;
 using RestAPIMVC.Repositories;
@@ -8,6 +9,11 @@ using RestAPIMVC.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//add nlog config
+string nlogPath = Directory.GetCurrentDirectory() + "/nlog.config";
+LogManager.LoadConfiguration(nlogPath);
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -24,6 +30,7 @@ builder.Services
     .AddAuthentication("APIAuthentication")
     .AddScheme<AuthenticationSchemeOptions, APIAuthenticationAttribute>("APIAuthentication",null);
 
+builder.Services.AddSingleton<ILoggerManager, LoggerManager>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<ICastRepository, CastRepository>();
 builder.Services.AddScoped<IActorRepository, ActorRepository>();
