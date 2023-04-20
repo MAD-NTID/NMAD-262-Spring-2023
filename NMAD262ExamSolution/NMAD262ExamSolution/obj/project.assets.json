@@ -1124,11 +1124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kscics\\RiderProjects\\NMAD262ExamSolution\\NMAD262ExamSolution\\NMAD262ExamSolution.csproj",
+      "projectUniqueName": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\NMAD262ExamSolution\\NMAD262ExamSolution\\NMAD262ExamSolution.csproj",
       "projectName": "NMAD262ExamSolution",
-      "projectPath": "C:\\Users\\kscics\\RiderProjects\\NMAD262ExamSolution\\NMAD262ExamSolution\\NMAD262ExamSolution.csproj",
+      "projectPath": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\NMAD262ExamSolution\\NMAD262ExamSolution\\NMAD262ExamSolution.csproj",
       "packagesPath": "C:\\Users\\kscics\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kscics\\RiderProjects\\NMAD262ExamSolution\\NMAD262ExamSolution\\obj\\",
+      "outputPath": "C:\\Users\\kscics\\Desktop\\NMAD-262-Spring-2023\\NMAD262ExamSolution\\NMAD262ExamSolution\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1143,6 +1143,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

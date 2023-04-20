@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using NMAD262ExamSolution.Databases;
+using NMAD262ExamSolution.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ string connection = builder.Configuration.GetConnectionString("mysqlDatabaseStri
 builder.Services.AddDbContextPool<MySqlDatabase>(options =>
     options.UseMySql(connection,ServerVersion.AutoDetect(connection))
 );
+
+builder.Services.AddScoped<IFilmRepository, FilmRepository>();
 
 var app = builder.Build();
 
