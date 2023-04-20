@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using NLog;
 using RestAPIMVC.Databases;
 using RestAPIMVC.Exceptions;
+using RestAPIMVC.Models;
 using RestAPIMVC.Repositories;
 using RestAPIMVC.Services;
 
@@ -29,6 +31,11 @@ builder.Services.AddDbContextPool<MySqlDatabase>(options =>
 builder.Services
     .AddAuthentication("APIAuthentication")
     .AddScheme<AuthenticationSchemeOptions, APIAuthenticationAttribute>("APIAuthentication",null);
+
+string paypal = builder.Configuration.Get("paypal");
+dynamic cred = JsonConvert.DeserializeObject<dynamic>(paypal);
+PaypalCredential credential = new PaypalCredential() { ClientId = cred.ClientId, ClientSecret = cred.ClientSecret };
+
 
 builder.Services.AddSingleton<ILoggerManager, LoggerManager>();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
